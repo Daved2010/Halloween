@@ -1,0 +1,24 @@
+*
+{
+  margin:0px;
+  padding: 0px;
+}
+html, body {
+  height: 100%; /* Asegura que el body y el html cubran toda la pantalla */
+  margin: 0; /* Elimina cualquier margen predeterminado */
+}
+
+body {
+    background-image: url('images/Calabazas.jpeg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la página */
+  }
+
+
+  #boton {
+
+background-color: orangered;
+
+
+  }
