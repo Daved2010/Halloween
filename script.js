@@ -23,14 +23,12 @@ document.getElementById("disfraz").src = selectedDisfraz;   // Poner el src (sou
 
 
 function elegirDisfrazDesdeLista() {
-    let selectedValue = document.getElementById("disfraz").src = selectedValue;
-    if (selectedValue) {
-        document.getElementById("disfraz").src = selectedValue; // Revisar Luego -------------
-    }
+    let selectedValue = document.getElementById("disfrazDropdown").value;
+    document.getElementById("disfraz").src = selectedValue;
 }
 
 
-function populateDropdown() {       // Crear las opciones para el dropdown
+function populateDropdown() {  // Crear las opciones para el dropdown
     let dropdown = document.getElementById("disfrazDropdown");  // Buscar el dropdown por ID
 
     disfraces.forEach((disfraz, index) => {
@@ -44,5 +42,8 @@ function populateDropdown() {       // Crear las opciones para el dropdown
 // Event listeners de los botones
 document.getElementById("botonAleatorio").onclick = elegirDisfrazAleatorio;
 document.getElementById("botonElegir").onclick = elegirDisfrazDesdeLista;
+
+// Llamar a la funcion DUHH
+populateDropdown();
 
 
