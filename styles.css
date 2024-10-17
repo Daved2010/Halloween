@@ -13,6 +13,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center center; /* Centra la imagen en la página */
+    text-align: center; 
   }
 
 
@@ -26,4 +27,12 @@ img
 {
   height: 400px;
   width: 400px;
+}
+
+header {
+  color: white;
+}
+
+.disfraz {
+  color: white;
 }
