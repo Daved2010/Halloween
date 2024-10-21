@@ -1,10 +1,8 @@
-let disfrazActual;
-let disfrazPasado;
 let disfraces = [
 "images/bruja.jpeg",
 "images/Centauro.jpeg",
 "images/enchufe.jpeg",
-"images/escoba.jpeg",
+"images/escoba.jpeg", 
 "images/ketchup.jpeg",
 "images/labellaylabestia.jpeg",
 "images/momia.jpeg",
@@ -16,9 +14,7 @@ let disfraces = [
 function elegirDisfrazAleatorio() {
 let randomIndex = Math.floor(Math.random() * disfraces.length);    // Seleccionar un numero aleatorio entre 0 y el numero de disfraces
 let selectedDisfraz = disfraces[randomIndex];    // Encontrar el index de la imagen aleatoria
-disfrazActual = selectedDisfraz;
 document.getElementById("disfraz").src = selectedDisfraz;   // Poner el src (source) de la imagen al index seleccionado aleatoriamente
-
 }
 
 

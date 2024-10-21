@@ -14,25 +14,57 @@ body {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center center; /* Centra la imagen en la página */
     text-align: center; 
+    align-items: center;
   }
 
 
-  #boton {
+.btnShow {
+  background-color: orangered;
+  color: rgb(52, 9, 9);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50px;
+  width: 200px;
+  height: auto;
+  transition: ease 0.3s;
+}
 
-background-color: orangered;
-
-  }
-
-img
-{
+#disfraz {
+  margin-top: 20px;
   height: 400px;
   width: 400px;
 }
 
 header {
   color: white;
+  padding-top: 25px;
+  outline: auto;
+  outline-color: black;
+  background-color: rgb(255, 103, 77);
 }
 
 .disfraz {
   color: white;
+}
+
+#disfrazAleatorio {
+  padding-top: 15px;
+}
+
+#disfrazElegir {
+  padding-top: 15px;
+}
+
+
+#disfrazDropdown {
+
+  background-color: orangered;
+  border-radius: 50px;
+}
+
+.btnShow:hover {
+  transform: scale(1.1);
+  box-shadow: 5px;
 }
